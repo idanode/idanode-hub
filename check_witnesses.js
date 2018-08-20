@@ -1,9 +1,9 @@
 /*jslint node: true */
 "use strict";
-var db = require('idanote-common/db.js');
-var storage = require('idanote-common/storage.js');
-var mail = require('idanote-common/mail.js');
-var conf = require('idanote-common/conf.js');
+var db = require('idanode-common/db.js');
+var storage = require('idanode-common/storage.js');
+var mail = require('idanode-common/mail.js');
+var conf = require('idanode-common/conf.js');
 
 function notifyAdmin(message){
 	write(message);

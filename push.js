@@ -1,6 +1,6 @@
-var db = require('idanote-common/db');
-var conf = require('idanote-common/conf');
-var eventBus = require('idanote-common/event_bus.js');
+var db = require('idanode-common/db');
+var conf = require('idanode-common/conf');
+var eventBus = require('idanode-common/event_bus.js');
 var https = require('https');
 
 

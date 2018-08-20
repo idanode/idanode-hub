@@ -1,6 +1,6 @@
 # Hub for IdaNode network
 
-This is a node for IdaNode network that serves as [relay](../../../idanote-relay), plus facilitates exchange of end-to-end encrypted messages among devices connected to IdaNode network.  The hub does not hold any private keys and cannot send payments itself.
+This is a node for IdaNode network that serves as [relay](../../../idanode-relay), plus facilitates exchange of end-to-end encrypted messages among devices connected to IdaNode network.  The hub does not hold any private keys and cannot send payments itself.
 
 The messages are used for the following purposes:
 * Convey private payment information from payer to payee.
@@ -12,7 +12,7 @@ The hub helps deliver such messages when the recipient is temporarily offline or
 
 Since all messages are encrypted with the recipient's key, the hub cannot read them.
 
-Users set their hub address in their wallet settings.  The default hub is wss://victor.idanote.org/tn but users can change it to your hub address.
+Users set their hub address in their wallet settings.  The default hub is wss://victor.idanode.org/tn but users can change it to your hub address.
 
 ## Install
 
@@ -20,7 +20,7 @@ Install node.js, clone the repository, then say
 ```sh
 npm install
 ```
-Set up a proxy, such as nginx, to forward all websocket connections on a specific path to your daemon running the hub code.  See example configuration for nginx in [idanote-common](../../../idanote-common) documentation.
+Set up a proxy, such as nginx, to forward all websocket connections on a specific path to your daemon running the hub code.  See example configuration for nginx in [idanode-common](../../../idanode-common) documentation.
 
 ## Run
 ```sh
@@ -28,7 +28,7 @@ node start.js > log &
 ```
 ## Customize
 
-If you want to change any defaults, refer to the documentation of [idanote-common](../../../idanote-common), the core 
+If you want to change any defaults, refer to the documentation of [idanode-common](../../../idanode-common), the core 
 library `require()`'d from here.
 
 ## Push notifications for Android

@@ -1,9 +1,9 @@
 /*jslint node: true */
 "use strict";
-require('idanote-relay');
+require('idanode-relay');
 var conf = require('./conf');
-var network = require('idanote-common/network');
-var eventBus = require('idanote-common/event_bus.js');
+var network = require('idanode-common/network');
+var eventBus = require('idanode-common/event_bus.js');
 var push = require('./push');
 
 eventBus.on('peer_version', function (ws, body) {

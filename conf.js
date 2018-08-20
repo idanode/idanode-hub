@@ -40,12 +40,12 @@ exports.initial_witnesses = [
 ];
 
 exports.initial_peers = [
-'wss://victor.idanote.org/tn',
-'wss://eason.idanote.org/tn',
-'wss://lymn.idanote.org/tn',
-'wss://bob.idanote.org/tn',
-'wss://curry.idanote.org/tn',
-'wss://kake.idanote.org/tn'
+'wss://victor.idanode.org/tn',
+'wss://eason.idanode.org/tn',
+'wss://lymn.idanode.org/tn',
+'wss://bob.idanode.org/tn',
+'wss://curry.idanode.org/tn',
+'wss://kake.idanode.org/tn'
 ];
 
 console.log('finished hub conf');

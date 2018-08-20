@@ -1,12 +1,12 @@
 {
-  "name": "idanote-hub",
+  "name": "idanode-hub",
   "description": "IdaNode Hub",
   "author": "IdaNode",
   "version": "0.1.0",
   "main": "start.js",
   "keywords": [
     "hub",
-    "idanote",
+    "idanode",
     "messaging",
     "chat"
   ],
@@ -15,17 +15,17 @@
   },
   "license": "MIT",
   "repository": {
-    "url": "https://github.com/idanote/idanote-hub.git",
+    "url": "https://github.com/idanode/idanode-hub.git",
     "type": "git"
   },
   "bugs": {
-    "url": "https://github.com/idanote/idanote-hub/issues"
+    "url": "https://github.com/idanode/idanode-hub/issues"
   },
   "browser": {
     "request": "browser-request",
     "secp256k1": "secp256k1/js"
   },
   "dependencies": {
-    "idanote-relay": "git+https://github.com/idanote/idanote-relay.git"
+    "idanode-relay": "git+https://github.com/idanode/idanode-relay.git"
   }
 }
