@@ -1,6 +1,6 @@
 # Hub for IdaNode network
 
-This is a node for TrustNote network that serves as [relay](../../../idanote-relay), plus facilitates exchange of end-to-end encrypted messages among devices connected to TrustNote network.  The hub does not hold any private keys and cannot send payments itself.
+This is a node for IdaNode network that serves as [relay](../../../idanote-relay), plus facilitates exchange of end-to-end encrypted messages among devices connected to IdaNode network.  The hub does not hold any private keys and cannot send payments itself.
 
 The messages are used for the following purposes:
 * Convey private payment information from payer to payee.
@@ -28,7 +28,8 @@ node start.js > log &
 ```
 ## Customize
 
-If you want to change any defaults, refer to the documentation of [idanote-common](../../../idanote-common), the core TrustNote library `require()`'d from here.
+If you want to change any defaults, refer to the documentation of [idanote-common](../../../idanote-common), the core 
+library `require()`'d from here.
 
 ## Push notifications for Android
 
