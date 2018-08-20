@@ -1,4 +1,4 @@
-# Hub for TrustNote network
+# Hub for IdaNode network
 
 This is a node for TrustNote network that serves as [relay](../../../idanote-relay), plus facilitates exchange of end-to-end encrypted messages among devices connected to TrustNote network.  The hub does not hold any private keys and cannot send payments itself.
 
