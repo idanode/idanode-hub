@@ -1,7 +1,7 @@
 {
   "name": "idanote-hub",
   "description": "IdaNode Hub",
-  "author": "TrustNote",
+  "author": "IdaNode",
   "version": "0.1.0",
   "main": "start.js",
   "keywords": [
